@@ -1,0 +1,90 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 50e86c27-10aa-414d-b5ee-db12ce08bce8)
+
+  (paper "A4")
+
+  (title_block
+    (title "Apricot PC1")
+    (date "2023-12-06")
+    (rev "1")
+    (company "Apricot")
+    (comment 1 "Edit: Alessio Iodice")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 93.345 23.495) (size 26.67 59.69) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 14a1d02a-1e58-4b3c-b417-3e6a12288c0b)
+    (property "Sheetname" "RAM" (at 93.345 22.7834 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "RAM.kicad_sch" (at 93.345 83.7696 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PC01"
+        (path "/50e86c27-10aa-414d-b5ee-db12ce08bce8" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 249.555 26.67) (size 24.13 50.165) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 97faf997-a846-43b3-99e9-431d9e3d466c)
+    (property "Sheetname" "Power" (at 249.555 25.9584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power.kicad_sch" (at 249.555 77.4196 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PC01"
+        (path "/50e86c27-10aa-414d-b5ee-db12ce08bce8" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 60.325 23.495) (size 26.67 59.69) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a035663a-2a4a-4782-8dc2-1e44466e42a9)
+    (property "Sheetname" "DRAM & CRT Logic" (at 60.325 22.7834 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "DRAM_CRT.kicad_sch" (at 60.325 83.7696 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PC01"
+        (path "/50e86c27-10aa-414d-b5ee-db12ce08bce8" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 27.305 23.495) (size 27.305 59.69) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid fd7b82cb-3ce9-4dcc-98bd-8b6c0669250b)
+    (property "Sheetname" "CPU" (at 27.305 22.7834 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "CPU.kicad_sch" (at 27.305 83.7696 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PC01"
+        (path "/50e86c27-10aa-414d-b5ee-db12ce08bce8" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
